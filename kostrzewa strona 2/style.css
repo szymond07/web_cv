@@ -1,0 +1,318 @@
+
+body{
+    border: 2px solid black;
+    min-height: 200px;
+    padding: 10px;
+    font-family: "Lilita One", sans-serif;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+div:nth-of-type(3){
+    margin-bottom: 0px;
+}
+
+#header{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 0;
+}
+
+#projekty{
+    border: 2px solid black;
+    width: 80%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+#octopus{
+    height: 100%;
+    width: 70px;
+}
+
+#projekty > button{
+    margin: 5px;
+    background-color: #0B8673;
+    color: #F5FAFF;
+    padding: 0 27px;
+    border: none;
+}
+
+#kolor{
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 0;
+}
+#kolor > p {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#kolor > img {
+    width: 40px;
+    height: 40px;
+}
+
+#main{
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#tresc{
+    width: 80%;
+    border: 2px solid black;
+    margin-bottom: 0;
+    padding: 20px;
+    margin-right: 10px;
+
+}
+
+#technologie{
+    width: 20%;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+#technologie > h3{
+    margin-bottom: 0;
+}
+
+#stack{
+    margin-top: 0;
+    list-style-type:"- ";
+    padding: 15px;
+    font-family: "Nunito", sans-serif;
+}
+#github{
+    border:2px solid black;
+    padding: 20px 15px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#github_photo{
+    width: 50px;
+    height: 50px;
+}
+
+#Tgora{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+#awatar{
+    border: 1px dotted black;
+    background: #000;
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+#jacek{
+    width: 180px;
+    height: 180px;
+}
+
+#name_container{
+}
+
+#top{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 0;
+}
+
+#Hi > h1{
+    margin: 0;
+    white-space: nowrap;
+}
+
+#Hi > p{
+    margin: 5px 0;
+    font-family: "Nunito", sans-serif;
+}
+
+#linki, #lorem{
+    font-family: "Nunito", sans-serif;
+    font-size:13px
+}
+
+#linki > p {
+    margin: 10px 0;
+}
+
+.social_photo{
+    width:25px;
+    height:25px;
+    vertical-align: middle;
+}
+#Tdol{
+display: flex;
+flex-direction: row;
+justify-content: space-around ;
+font-family: "Nunito", sans-serif;
+}
+
+.tile{
+    margin: 10px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.tile > div > h2{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.tile > div{
+    margin-bottom: 0;
+}
+
+.h2_container {
+    margin-bottom: 0;
+    border-bottom: 2px solid black;
+}
+#h2_experience{
+display:flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding:10px 0;
+}
+
+
+#experience_text{
+    color: #F5FAFF;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+
+
+.tile > div > div > button{
+    background-color: #F5FAFF;
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#h2_container{
+    margin-bottom: 0;
+}
+
+#h2_contact_div{
+    width: 70%;
+    margin-bottom: 0;
+}
+
+#icon_contact_div{
+    width: 30%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_me_container{
+    color: #F5FAFF;
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact_me_icon{
+    width: 25px;
+    height: 25px;
+
+}
+
+#contact_me_text{
+padding: 10px 15px 15px 10px;
+
+height: 100%;
+
+
+}
+#contact_me_text > textarea {
+    resize: none;
+    width: 100%;
+    height: 70%;
+    border:2px solid black ;
+}
+#contact_me_text > input {
+height: 20%;
+margin-bottom: 10px;
+width: 75%;
+border:2px solid black ;
+
+}
+#h2_contact{
+margin: 0; 
+display:flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding:10px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    border-bottom: 2px dashed black;
+}
+
